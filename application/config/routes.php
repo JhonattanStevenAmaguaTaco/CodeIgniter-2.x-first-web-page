@@ -43,6 +43,7 @@ $route['404_override'] = '';
 */
 //Leftside is a regular expression
 //Rigthside is a Controller an its method separated by bars "/", then is the arguments for the method
+$route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';
 $route['news'] = 'news';
 $route['default_controller'] = 'pages/view';
